@@ -1,0 +1,748 @@
+
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
+<title>Skin Care Routines &amp; Regimens For Your Skin Type &mdash; The Body Shop </title>
+<meta name="description" content="Find the right skin care routine for your skin type with The Body Shop's 3 step daily regimens with product recommendations to give you healthier skin" />
+<link rel="stylesheet" href="stylesheets/foundation.css" />
+<link rel="stylesheet" href="stylesheets/entypo.css" />
+<link rel="stylesheet" href="stylesheets/style.css" />
+<link rel="stylesheet" href="stylesheets/responsive.css" />
+<link rel="stylesheet" href="stylesheets/blockquote.css" />
+
+<!--Header CSS-->
+<link rel="stylesheet" type="text/css" media="all" href="stylesheets/header.css" />
+<link href="stylesheets/mobile.css" rel="stylesheet" type="text/css" />
+<script src="javascripts/modernizr.foundation.js"></script>
+
+<script src="//assets.adobedtm.com/42c88fb73f5fd0aa15bab49ffa24c097a2516e34/satelliteLib-1a82868081727d97c680e7a87e1fe039943cbb9a.js"></script>
+
+<script type="text/javascript">
+    var adb_seeWhy_id = 'AB51261693';
+    var adb_linkshare_mid= '13962';
+    var adb_criteo_mid= '14055';
+    var adb_acerno_custom_var2 = 'bQ4bXXev';
+    var adb_bing_custom_label = 'dd09a204-7c2e-46d9-8ba2-66b899bfddb1';
+    var adb_google_ads_custom_conversion_id = '1018339844';
+    var adb_google_analytics_custom_id_desktop = 'UA-5367320-2';
+    var adb_google_analytics_custom_id_mobile = 'UA-39200229-1';
+    var adb_quantcast_qcct = 'p-93DhymF_ZRPFw';
+    var adb_trialpay_tp_aid = '1707362';
+    var adb_yahoo_custom_account_id = '1F2331NFK9CPPQHUNPO8TKFO36C';
+    var adb_yesmail_p = 'B4RYZA93';
+</script>
+
+</head>
+<body><form name="_ServerForm" method="post" action="index.aspx" id="_ServerForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTgyMjAzMTY3NA9kFgJmD2QWAgIBD2QWAmYPZBYCZg9kFgICAQ9kFgJmD2QWAmYPZBYCAgEPZBYCZg9kFgJmDxUBJGRjZTIxMjU4LTBjNjktNGEzNC1hODI4LWFmYTFmMTE0YTg1M2Rk" />
+</div>
+
+
+
+		
+		
+<script type="text/javascript">
+	
+       
+    
+	function setAdobeCampaignCodeValue(icidvalue) {
+		sessionStorage.setItem("icid", icidvalue);
+	} 
+	
+	function setAdobeSignUpEvent() {
+		
+		sessionStorage.setItem("NewsletterPage",adb_page_name);
+	}
+	
+    
+	function setAdobeFacetValues(facet,item) {
+		
+		var facetItem = facet.code;
+		var facetValue = new Array();
+		if (facetItem == "min_price_ca") {
+			facetValue = item;
+			adb_facet = facet.title + ":" + " ranging from " + facetValue[0] + " to " + facetValue[1];
+		} else {
+			adb_facet = facet.title + ":" + item.$;
+		}
+        adb_events = "event15";
+        _satellite.track("scSearchFacet");
+	}	
+    
+    
+	
+    function setAdobeAddtoCartValues(product,event) {
+        adb_products = product; 
+        adb_events = event;
+        _satellite.track("scAdd");  
+    }    	
+	
+	function setAdobeCheckoutValues() {
+        adb_products = adb_basket_sku_qty_price + ",;;;;event12=" + adb_basket_shipping_total + "|event11=" + adb_basket_discount_total + ";";
+        adb_products = adb_products.replace(/&/g,"and");
+		if (adb_cust_is_loyalty_profile === true) {
+		   adb_events='scCheckout,event13,event12,event11'; 
+		} else {
+			adb_events='scCheckout,event12,event11'; 
+		}
+        _satellite.track("scCheckout");    
+	}        
+	
+	function setAdobeCardValue(cardType) {		
+		setPaymentCardType(cardType);
+	}
+	function setPaymentCardType(v_CardType) {
+		adb_cardType = v_CardType;
+		_satellite.track("scPaymentType"); 
+	}	
+	function setPromotionDetails(v_cust_new_or_old) {
+		var promotext = "";
+		var promocodes = "";
+		$('#paymentMyBag .shoppingbag .offers .pink').each(function () {
+			promotext = promotext + $(this).text() + ";";
+		});
+		$('#paymentMyBag .shoppingbag .offers .promoCodeWA').each(function () {
+			promocodes = promocodes + $(this).text() + ";";
+		});
+		adb_promocodes = promocodes;
+		adb_promotext = promotext;
+		adb_cust_new_flag = v_cust_new_or_old;
+		_satellite.track("scPromotions");
+	}    
+		
+    
+    function setAdobeLoyaltyLoginEvent() {
+        adb_events = "event13";       
+    }
+	
+    function setAdobePageValues(channel,prop1,searchTextAdobe,searchResultsAdobe) {
+         adb_page_name = "tbs:"+ channel; 			
+	     adb_channel = channel.replace(/\:/g,'>'); 					
+         adb_prop1 = prop1.replace(/\:/g,'>');
+         adb_prop2 = channel.replace(/\:/g,'>');
+         adb_prop3 = channel.replace(/\:/g,'>');
+         if (channel.toLowerCase() == "search") {   
+             adb_searchTxt = searchTextAdobe;
+             adb_searchRslts = searchResultsAdobe;
+             _satellite.track("scSearch");
+               
+            }
+        if (channel.toLowerCase() == "login-register-error" ) {
+             _satellite.track("scLoginError");
+        }
+    } 
+	
+    function setAdobeCategoryValues(categoryLevels) {            
+         if (categoryLevels.length >= 4) {
+             adb_arProductCategoryLevel1.push(categoryLevels[0]);
+             adb_arProductCategoryLevel2.push(categoryLevels[1]);
+             adb_arProductCategoryLevel3.push(categoryLevels[2]);
+             adb_arProductCategoryLevel4.push(categoryLevels[3]);
+         }else if(categoryLevels.length == 3) {
+             adb_arProductCategoryLevel1.push(categoryLevels[0]);
+             adb_arProductCategoryLevel2.push(categoryLevels[1]);
+             adb_arProductCategoryLevel3.push(categoryLevels[2]);
+             adb_arProductCategoryLevel4.push(categoryLevels[2]);
+         }
+         else if(categoryLevels.length == 2) {
+             adb_arProductCategoryLevel1.push(categoryLevels[0]);
+             adb_arProductCategoryLevel2.push(categoryLevels[1]);
+             adb_arProductCategoryLevel3.push(categoryLevels[1]);
+             adb_arProductCategoryLevel4.push(categoryLevels[1]);
+         }
+         else if(categoryLevels.length == 1) {
+             adb_arProductCategoryLevel1.push(categoryLevels[0]);
+             adb_arProductCategoryLevel2.push(categoryLevels[0]);
+             adb_arProductCategoryLevel3.push(categoryLevels[0]);
+             adb_arProductCategoryLevel4.push(categoryLevels[0]);
+         }
+    }
+    
+	
+    function setAdobeProductCatPageValues(type,searchPropValues) {  
+        adb_prop1 = "products page";      
+		 if (type == "PRODUCT") {
+			adb_page_name = "tbs:" + adb_arCategoryLevels[0] + ":" +  adb_arCategoryLevels[1] + ":" + adb_product_name;
+			adb_channel = adb_arCategoryLevels[0];
+			adb_prop2 = adb_arCategoryLevels[0] + ">" + adb_arCategoryLevels[1];
+			adb_prop3 = adb_arCategoryLevels[0] + ">" +  adb_arCategoryLevels[1] + ">" + adb_product_name;
+			adb_products = adb_arCategoryLevels[0] + "|" +  adb_arCategoryLevels[1] + "|" + adb_product_name + ";" + adb_product_variant_code + ";" ;
+            adb_products = adb_products.replace(/&/g,"and");
+            
+		} else if (type == "CATEGORY") {
+			adb_page_name = "tbs:" + adb_arCategoryLevels[0]; 
+			adb_channel=adb_prop2=adb_prop3=adb_category=adb_subcategory_level1=adb_subcategory_level2 = adb_arCategoryLevels[0];
+		} else if (type == "SUBCATEGORY" || type.toUpperCase() == "SEARCH") {
+            if (type.toUpperCase() == "SEARCH") {
+                for (var icount in searchPropValues) {
+			    adb_arCategoryLevels.push(searchPropValues[icount].$);
+                } 
+            }
+			adb_page_name = "tbs:" + adb_arCategoryLevels[0] + ":" +  adb_arCategoryLevels[1]; 
+			adb_channel = adb_arCategoryLevels[0];
+			adb_prop2=adb_prop3=adb_subcategory_level1=adb_subcategory_level2 = adb_arCategoryLevels[0]+ ">" + adb_arCategoryLevels[1];
+			adb_category = adb_arCategoryLevels[0];
+			if (adb_arCategoryLevels.length > 2) {
+				adb_prop3=adb_subcategory_level2 = adb_arCategoryLevels[0] + ">" +  adb_arCategoryLevels[1] + ">" + adb_arCategoryLevels[2];
+				adb_page_name= "tbs :" + adb_arCategoryLevels[0] + ":" +  adb_arCategoryLevels[1] + ":" + adb_arCategoryLevels[2];
+			}
+
+            if (type.toUpperCase() == "SEARCH") {
+                _satellite.track("scSearch");
+            }
+
+		}
+    }
+	
+    function setAdobeBasketProductDetails() {
+		adb_basket_sku_qty_price = adb_arProductCodes.join(",");
+		adb_order_product_names = adb_arProductNames.join(";");
+		adb_category = adb_arProductCategoryLevel1.join(";");
+		adb_subcategory_level1 = adb_arProductCategoryLevel2.join(";");
+		adb_subcategory_level2 = adb_arProductCategoryLevel3.join(";");
+        adb_subcategory_level3 = adb_arProductCategoryLevel4.join(";");
+		adb_order_product_new_price = adb_arProductNewPrice.join(";");
+		adb_order_discount_total = adb_arProductDiscount.join(";");
+    }
+	
+    function setAdobeEventValue(event) {
+        adb_events = event;
+    }
+	
+	function setAdobeRemovedProduct(product) {		
+        adb_events = "scRemove";
+        adb_products = product;
+         _satellite.track("scRemove");
+	}
+
+    
+    function setAdobeCrossSellValue() {
+        _satellite.track("scCrossSell");
+    }
+</script>
+    
+
+
+
+
+
+
+
+            
+
+		
+
+        
+        
+
+<script type="text/javascript">
+	
+	var adb_server_number, adb_page_name, adb_page_type,adb_channel, adb_prop1, adb_prop2, adb_prop3, adb_events, adb_products, adb_device_type, adb_page_signed = ""; 	
+   	var adb_language_code = "en";
+    var adb_currency="$";   
+	
+    
+	var adb_cust_email_id, adb_cust_role, adb_cust_email_actual_id, adb_cust_new_flag = ""; 
+    var adb_cust_status = "Not Logged In";				
+	var adb_cust_is_loyalty_profile = false;
+    var adb_cust_arOrderList = []; 	
+    var adb_cust_name = "Guest";
+    var adb_cust_LYB_number = "";
+    var adb_cust_LYB_expiry_date = "";
+    var adb_cust_LYB_points = "";
+		
+	
+	var adb_product_name, adb_product_variant_code,adb_product_sku_qty_price = ""; 	
+	var adb_product_unit_price, adb_product_applied_price, adb_product_quantity = 0; 
+    var adb_product_sku, adb_product_url, adb_product_image_url = "";  
+    
+    var adb_arCategoryLevels = [];	
+	var adb_arCategory = [];
+    var adb_product_hierarchy_name_code_qty_price = "";		
+	
+	
+	var adb_basket_item_count, adb_basket_product_variant_code, adb_basket_discount_total, adb_basket_shipping_total, adb_order_product_total, adb_order_total_without_discount = 0; 				// Basket details
+    var adb_basket_product_names, adb_basket_product_discounts, adb_basket_product_price,adb_basket_sku_qty_price = ""; 
+    var adb_basket_last_added_product_name, adb_basket_last_added_product_category, adb_basket_last_added_product_desc, adb_basket_last_added_product_pageurl, adb_basket_last_added_product_imageurl, adb_basket_last_added_product_sku = "";
+    var adb_basket_last_added_product_price = 0;
+    var adb_basket_total = 0;
+	
+	
+	var adb_order_id, adb_order_samples, adb_order_shipping_method, adb_order_shipping_state, adb_order_shipping_city, adb_order_zipcode, adb_cardType, adb_category, adb_subcategory_level1, adb_subcategory_level2, adb_subcategory_level3 = ""; //order details
+	var adb_order_total, adb_order_discount_total, adb_order_tax_total = 0; 					// order amount details
+    var adb_order_samples, adb_order_sku_qty_price, adb_order_product_names, adb_order_product_new_price, adb_order_gift_wrap, adb_product_sku_code = ""; 				// Sample products in order
+	var adb_order_prodCode, adb_order_sampleProd="";
+    var adb_order_prodDiscount= 0;
+    var adb_promotext = "";
+    var adb_promocodes = "";
+   
+    
+    var adb_searchTxt, adb_searchRslts, adb_facet = "";
+	
+	
+	var adb_internal_campaign_code = "";
+	
+    
+    var adb_page_url, adb_icount, adb_tmp_page_name, adb_index = "";		
+	var adb_arProductCodes = [];
+    var adb_arProductNames = [];
+    var adb_arProductCategoryLevel1 = [];
+    var adb_arProductCategoryLevel2 = [];
+    var adb_arProductCategoryLevel3 = [];
+    var adb_arProductCategoryLevel4 = []; 
+	var adb_arProductDiscount = [];
+    var adb_arProductNewPrice = [];
+    var adb_arProductUnitPrice = [];
+    var adb_arSampleProducts = [];
+    var adb_arProductSKUs = []; 
+    var adb_arProductQty=[];
+	var adb_arProductUrl=[];
+	var adb_arBasket_product_variant_code=[];
+	var adb_arBasket_product_quantity=[];
+	var adb_arPromotedUnitPrice=[];
+    var adb_rocketfuel_products = []; 
+	var adb_rocketfuel_products_five = [];
+	var adb_rocketfuel_search = [];
+	var adb_index_product_Id = [];
+
+    
+	var adb_newsletter_emailID = "";
+	
+	
+	var adb_trialpay_timestamp, adb_trialpay_hash, adb_trialpay_sid = "";
+    var adb_Domain = "www.thebodyshop-usa.com";
+	adb_page_signed = sessionStorage.getItem("NewsletterPage");
+
+    var rocketFuelCounter = 0;
+	
+	
+	
+			
+					adb_cust_email_id = "dce21258-0c69-4a34-a828-afa1f114a853";
+				
+		
+	
+	
+    
+    adb_internal_campaign_code = sessionStorage.getItem("icid");
+    if (adb_internal_campaign_code != "") {
+        sessionStorage.clear();
+    }
+	var strDeviceAgent = navigator.userAgent.toLowerCase(); 
+	var strLocationURL = window.location.toString();			
+	var blnAgentID = strDeviceAgent.match(/(iphone|ipod|android|usablenet)/);	
+	if (strLocationURL.indexOf("m.thebodyshop-usa.com") > 0) {
+		blnAgentID = true;
+	}
+	if (blnAgentID) {
+        adb_device_type = "mobile";
+    } else {
+        adb_device_type = "desktop";
+    }   
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script language="JavaScript" type="text/javascript"> 
+			if (strLocationURL !== null && strLocationURL !== undefined) {
+				if ((strLocationURL.indexOf("/account/members/index.aspx?reg=y") > 0) || (strLocationURL.indexOf("/account/members/myaccountdetails.aspx?reg=y") > 0)) {
+					setAdobePageValues("register","myaccount","","");
+					setAdobeEventValue("event7");
+				}
+			}
+		</script> 
+	
+
+
+
+
+
+
+
+
+
+<script language="JavaScript" type="text/javascript"> 
+	var adb_page_url_arr = [];
+        adb_page_url = window.location.toString();
+    if (typeof (adb_page_name) == "undefined") {
+		adb_page_url_arr = window.location.pathname.split("/");
+        adb_tmp_page_name = adb_page_url_arr.join(":");
+		if (adb_tmp_page_name.indexOf('.aspx') > -1) {
+			    adb_index = adb_tmp_page_name.indexOf('.aspx');
+			    adb_tmp_page_name = adb_tmp_page_name.substr(1, adb_index-1);        
+		} else {
+			adb_tmp_page_name = adb_tmp_page_name.substr(1, adb_page_url.indexOf('?')-1);
+		}        
+		setAdobePageValues(adb_tmp_page_name,adb_tmp_page_name,"","");        
+    }
+</script>
+
+
+
+
+
+
+
+
+            
+
+		
+		
+	
+
+
+<!-- top nav starts -->
+<div> <!--BEGIN-HEADER-->
+      
+<!-- top bar starts -->
+
+<div id="top-bar-span" class="full-width">
+  <div class="top-bar-nav fixed-width wide">
+    <ul id="menu-top-bar-menu" class="menu">
+      <li id="menu-item-602" class="rewards-card menu-item menu-item-type-custom menu-item-object-custom menu-item-602"><a href="http://www.thebodyshop-usa.com/loveyourbody/">Rewards Card</a></li>
+      <li id="menu-item-892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-892"><a href="http://www.thebodyshop-usa.com/checkout/mybasket.aspx">Shopping Cart</a></li>
+      <li id="menu-item-892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-892"><a href="http://www.thebodyshop-usa.com/giftcard/">Gift Cards</a></li>
+      <li id="menu-item-882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-882"><a href="http://www.thebodyshop-usa.com/index.aspx#latest-campaigns?stop_mobi=yes">Email Updates</a></li>
+      <li id="menu-item-892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-892"><a href="http://www.thebodyshop-usa.com/services/storelocator-result.aspx">Find a Store</a></li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<!-- top bar ends --> 
+
+<!-- header starts -->
+
+<div id="header-span" class="full-width">
+  <div id="header" class="fixed-width wide"> <a target="_blank" class="logo" href="http://www.thebodyshop-usa.com">The Body Shop | Beauty from the Heart</a>
+    <div class="nav">
+      <ul id="menu-main-menu" class="menu">
+        <li id="menu-item-3062" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3062"><a href="#">Menu</a>
+          <ul class="sub-menu">
+            <li id="menu-item-3052" class="shop-link menu-item menu-item-type-custom menu-item-object-custom menu-item-3052"><a href="http://www.thebodyshop-usa.com" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','images/home2.png?stop_mobi=yes',1)"><img src="images/home.png?stop_mobi=yes" alt="Home" width="20" height="17" id="Home" /></a></li>
+            <li id="menu-item-3072" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3072"><a href="http://www.thebodyshop-usa.com/whats-new.aspx">What&#8217;s New</a></li>
+            <li id="menu-item-3082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3082"><a href="http://www.thebodyshop-usa.com/gifts.aspx">Gifts</a></li>
+            <li id="menu-item-3092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3092"><a href="http://www.thebodyshop-usa.com/bath-body-care.aspx">Bath &#038; Body</a></li>
+            <li id="menu-item-3102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3102"><a href="http://www.thebodyshop-usa.com/skin-care.aspx">Skin Care</a></li>
+            <li id="menu-item-3112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3112"><a href="http://www.thebodyshop-usa.com/makeup.aspx">Makeup</a></li>
+            <li id="menu-item-3122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3122"><a href="http://www.thebodyshop-usa.com/hair-care-products.aspx">Hair</a></li>
+            <li id="menu-item-3132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3132"><a href="http://www.thebodyshop-usa.com/fragrance.aspx">Fragrance</a></li>
+            <li id="menu-item-3142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3142"><a href="http://www.thebodyshop-usa.com/men-product.aspx">Mens</a></li>
+            <li id="menu-item-3152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3152"><a href="http://www.thebodyshop-usa.com/shop-by-line.aspx">Shop Ingredients</a></li>
+            <li id="menu-item-3152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3152"><a href="http://www.thebodyshop-usa.com/specials.aspx">Sale</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- header ends --></div>
+
+<header> </header>
+<!--end-of-top--> 
+
+<!-- Begin Content -->
+
+<section id="home">
+  <div class="maincontent">
+    <div class="row">
+      <div class="two columns text-center"></div>
+      <div class="six columns text-center" id="kit-title">
+        <h1>SKIN CARE ROUTINES &amp; PRODUCT KITS</h1>
+        <p>Powerful ingredients, feel good textures, effective formulas. Whether you're looking for a skin care routine to suit your busy lifestyle, or just need to treat your skin to a quick fix, we've got a kit that's just perfect for you. If you're not sure what skin type you are, try our <a target="_blank" href="http://skincareonline.thebodyshop-usa.com/">Skin Care Diagnostic Tool</a>.</p>
+      </div>
+    </div>
+    <div class="two columns text-center"></div>
+    <div class="row inner-section text-center" id="steps">
+      <h2>3-step Daily Skin Care Routines</h2>
+      <!--========= Vit E =========-->
+      <div class="hr"></div>
+    </div>
+
+    <!--========= Vit E =========-->
+    <div class="row">
+      <div class="six columns text-center"> <img src="images2/VitaminE_Routine.png" class="product" alt="Vitamin E Routine - For All Skin Types" /> </div>
+      <div id="treatments" class="six columns text-left">
+        <div id="vit-e">
+          <h1>Skin Care Routine For All Skin Types</h1>
+          <h2>Vitamin E Routine</h2>
+          <p>Our Vitamin E skin care routine provides long-lasting hydration and helps protect against environmental damage. It is suitable for all skin types.</p>
+          <h2>1. Gentle Facial Wash <span class="size">3.3&nbsp;fl&nbsp;oz</span></h2>
+          <p>This gentle wash lathers on the skin leaving it feeling clean, soft and refreshed.</p>
+          <h2>2. Hydrating Toner <span class="size">7&nbsp;fl&nbsp;oz</span></h2>
+          <p>Sweep over cleansed face and neck using a cotton pad to refresh skin and remove the last traces of impurities.</p>
+          <h2>3. Moisture Cream <span class="size">1.7 OZ</span></h2>
+          <p>Everybody's favorite and our best seller. An easily absorbed daily moisturizing cream that has the lightness of a lotion with the moisturizing benefits of a cream.</p>
+          <h2 class="price">$36 <span class="value">A $46 Value!</span></h2>
+          <!-- <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=19756:17744:26425&qty=1:1:1" role="button"> -->
+          <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52738&qty=1  " role="button">Add routine to cart  &#9656;</a>
+        </div>
+      </div>
+    </div><!--//.row -->
+
+    <!--========= Seaweed =========-->
+    <div class="hr-gray"></div>
+    <div class="row">
+     <div class="six columns text-center mobile"> <img src="images2/Seaweed_Routine.png" class="product" alt="Seaweed routine - FOR combination to oily skin" /> </div>
+     <div id="treatments" class="six columns text-left">
+      <div id="seaweed">
+        <h1>Skin Care Routine For <br />Combination To Oily Skin</h1>
+        <h2>Seaweed routine</h2>
+        <p>This balancing skin care routine gives flexible care to oily and combination skin by reducing excess oil, hydrating where needed and refining pores.</p>
+        <h2>1. Deep CLEANSING FACIAL WASH <span class="size">3.3&nbsp;fl&nbsp;oz</span></h2>
+        <p>A mild oil-free and soap-free foaming cleansing gel that effectively deep cleanses to clear open pores and rinse away excess oils, make-up, impurities and daily grime.</p>
+        <h2>2. Clarifying Toner <span class="size">6.7&nbsp;fl&nbsp;oz</span></h2>
+        <p>A refreshing and purifying toner. Removes excess traces of make-up and cleanser.</p>
+        <h2>3. Day Cream <span class="size">1.7 OZ</span></h2>
+        <p>An easily absorbed, non-clogging, oil-free, gel-like moisture cream.
+          It controls excess shine, balancing the skin throughout the day.</p>
+          <h2 class="price">$36<span class="value">A $45.50 Value!</span></h2>
+          <!-- <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=14761:94293:19879&qty=1:1:1" role="button"> -->
+          <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52739&qty=1" role="button">Add routine to cart  &#9656;</a>
+        </div>
+      </div>
+      <div class="six columns text-center desk"> <img src="images2/Seaweed_Routine.png" class="product" alt="Seaweed routine - FOR combination to oily skin" /> </div>
+    </div><!--//.row-->
+
+    <!--========= Aloe =========-->
+    <div class="hr-gray"></div>
+    <div class="row">
+      <div class="six columns"> <img src="images2/Aloe_Routine.png" class="product" alt="Aloe routine - for gentle care" /> </div>
+      <div id="treatments" class="six columns text-left">
+        <div id="aloe">
+          <h1>Sensitive Skin Care Routine</h1>
+          <h2>Aloe routine</h2>
+          <p>Our Aloe skin care routine soothes sensitive skin. It is alcohol, fragrance, color and preservative-free.</p>
+          <h2>1. Gentle Facial Wash <span class="size">4.2&nbsp;fl&nbsp;oz</span></h2>
+          <p>Our cleansing foam gently rinses away impurities while soothing and refreshing skin.</p>
+          <h2>2. Calming Toner <span class="size">6.75&nbsp;fl&nbsp;oz</span></h2>
+          <p>Our conditioning alcohol-free toner gently removes any remaining traces of cleanser and prepares skin for moisturization.</p>
+          <h2>3. Soothing Day Cream <span class="size">1.7 OZ</span></h2>
+          <p>This dermatologically tested daily moisturizer hydrates skin that needs more gentle care. Leaves skin feeling soft and smooth.</p>
+          <h2 class="price">$38<span class="value">A $49 Value!</span></h2>
+          <!-- <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=19105:19106:40096&qty=1:1:1" role="button"> -->
+          <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52740&qty=1" role="button">Add routine to cart  &#9656;</a>
+        </div>
+      </div>
+    </div><!--//.row -->
+
+    <!--========= Vit C =========-->
+    <div class="hr-gray"></div>
+    <div class="row">
+     <div class="six columns text-center mobile"> <img src="images2/VitaminC_Routine.png" class="product" alt="Seaweed routine - FOR combination to oily skin" /> </div>
+     <div id="treatments" class="six columns text-left">
+      <div id="vit-c">
+        <h1>Brightening Skin Care Routine</h1>
+        <h2>Vitamin C Routine</h2>
+        <p>Our radiance-boosting skin care routine refreshes and revitalizes dull skin.</p>
+        <h2>1. facial cleansing polish <span class="size">3.3&nbsp;fl&nbsp;oz</span></h2>
+        <p>Enriched with Jojoba particles to gently and effectively cleanse, exfoliate and revitaize the skin.</p>
+        <h2>2. Skin boost <span class="size">1&nbsp;fl&nbsp;oz</span></h2>
+        <p>Create instant smoothing radiance with a silky smooth finish. Perfect to enhance your glow.</p>
+        <h2>3. Energizing Face Spritz <span class="size">3.3&nbsp;fl&nbsp;oz</span></h2>
+        <p>Get an instant pick-me-up to refresh, smooth and energize dull looking skin. Ideal for use on the go.</p>
+        <h2 class="price">$49<span class="value">A $65 Value!</span></h2>
+        <!--  <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=12011:83290:28345&qty=1:1:1" role="button"> -->
+        <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52742&qty=1" role="button">Add routine to cart  &#9656;</a>
+      </div>
+    </div>
+    <div class="six columns text-center desk"> <img src="images2/VitaminC_Routine.png" class="product" alt="Seaweed routine - FOR combination to oily skin" /> </div>
+  </div><!--//.row-->
+  
+  <!--========= Nutriganics =========-->
+  <div class="hr-gray"></div>
+  <div class="row">
+    <div class="six columns"> <img src="images2/Nutriganics_Routine.png" class="product" alt="NUTRIGANICS routine - for first signs of aging" /> </div>
+    <div id="treatments" class="six columns text-left">
+      <div id="tea">
+        <h1>Skin Care Routine For <br />First Signs Of Aging</h1>
+        <h2>NUTRIGANICS routine</h2>
+        <p>Our Nutriganics skin care routine features high-performance products, proven to smooth
+          fine lines and wrinkles in just four weeks.</p>
+        <h2>1. Foaming face wash<span class="size">5&nbsp;fl&nbsp;oz</span></h2>
+        <p>Gently wash away makeup and impurities with this instantly foaming face wash that softens skin while leaving it looking healthy.</p>
+        <h2>2. Refreshing Toner <span class="size">6.75&nbsp;fl&nbsp;oz</span></h2>
+        <p>Smoothes and freshens with Community Fair Trade aloe vera.</p>
+        <h2>3. Smoothing Day Cream <span class="size">1&nbsp;fl&nbsp;oz</span></h2>
+        <p>Reduces the appearance of fine lines and wrinkles with Community Fair Trade coconut oil.</p>
+        <h2 class="price">$45<span class="value">A $56 Value!</span></h2>
+       <!--  <a class="btn-prd btn"  href="/ajax/addtocart.aspx?varcode=89501:89255:89254&qty=1:1:1" role="button"> -->
+        <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52743&qty=1" role="button">Add routine to cart  &#9656;</a>
+      </div>
+    </div>
+  </div><!--//.row-->
+
+  <!--========= For Men =========-->
+  <div class="hr-gray"></div>
+  <div class="row">
+   <div class="six columns text-center mobile"> <img src="images2/MacaRoot_Routine.png" class="product" alt="Seaweed routine - FOR combination to oily skin" /> </div>
+    <div id="treatments" class="six columns text-left">
+      <div id="men">
+        <h1>Men's Shaving Routine</h1>
+        <h2>for all skin types</h2>
+        <p>Specially formulated to help tired-looking skin and improve its condition. Containing
+          community fair trade brazil nut oil.</p>
+        <h2>1. Shaving cream <span class="size">6.3 oz</span></h2>
+        <p>A rich cream to prepare the skin for a close and comfortable shave,
+          while conditioning and moisturising skin. Suitable for all skin types.</p>
+        <h2>2.  Wooden Shave Brush</h2>
+        <p>Distributes Shave Cream evenly over the skin.</p>
+        <h2>3. Razor relief <span class="size">3.1&nbsp;fl&nbsp;oz</span></h2>
+        <p>A lightweight silky-smooth balm that instantly soothes the skin after shaving. Suitable for all skin types.</p>
+        <h2 class="price">$34<span class="value">A $42 Value!</span></h2>
+       <!--  <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=31413:82985:95146&qty=1:1:1" role="button"> -->
+       <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52745&qty=1" role="button">
+       Add routine to cart  &#9656;</a>
+     </div>
+    </div>
+    <div class="six columns text-center desk"> <img src="images2/MacaRoot_Routine.png" class="product" alt="Seaweed routine - FOR combination to oily skin" /> </div>
+  </div><!-- //.row -->
+  
+  <!--========= Tea Tree =========-->
+  <div class="hr-gray"></div>
+  <div class="row">
+    <div class="six columns"> <img src="images2/TeaTree_Routine.png" class="product" alt="Tea Tree Routine - for acne prone skin" /> </div>
+    <div id="treatments" class="six columns text-left">
+      <div id="tea">
+        <h1>Skin Care Routine For Acne Prone Skin</h1>
+        <h2>Tea Tree Routine</h2>
+        <p>Our naturally infused antibacterial tea tree oil removes
+          impurities without drying skin.</p>
+        <h2>1. Skin clearing facial wash<span class="size">8.4&nbsp;fl&nbsp;oz</span></h2>
+        <p>This gentle cleanser effectively cleanses the skin, removing make-up, dirt and impurities without over-drying skin.</p>
+        <h2>2. Toner <span class="size">8.4&nbsp;fl&nbsp;oz</span></h2>
+        <p>Removes traces of cleanser, make-up and impurities. Effectively tones the skin, removing excess oil for a matte finish.</p>
+        <h2>3. Skin clearing lotion<span class="size">1.69&nbsp;fl&nbsp;oz</span></h2>
+        <p>A light, moisturizing non-oily lotion that sinks into the skin to provide lightweight hydration and oil control throughout the day, while helping to prevent blemishes.</p>
+        <h2 class="price">$32<span class="value">A $40.50 Value!</span></h2>
+        <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=10919:98323:58333&qty=1:1:1" role="button">Add routine to cart  &#9656;</a>
+      </div>
+    </div>
+  </div><!--//.row-->
+  
+  <!--\\\\\\\\\\\\\\ 2 Step Treatments ////////////////////-->
+  
+  <div id="steps" class="row inner-section text-center">
+    <h2>2-step Targeted Treatments</h2>
+    <div class="hr"></div>
+  </div>
+  
+  <!--========= Youth Enhancing =========-->
+  
+  <div class="row">
+    <div class="one columns"></div>
+    <div class="five columns text-center mobile"> <img src="images2/Youth-Enhancing.png" class="product" alt="youth enhancing treatment" /> </div>
+    <div id="treat-2" class="six columns text-left">
+      <div id="youth">
+        <h1>youth enhancing treatment</h1>
+        <h2>1. Smoothing Eye cream <span class="size">0.5&nbsp;fl&nbsp;oz</span></h2>
+        <p>This daily use of eye cream smoothes the fragile skin around the eyes by hydrating and refreshing skin with Community Fair Trade Babassu Oil. </p>
+        <h2>2. Drops of youth Concentrate <span class="size">1&nbsp;fl&nbsp;oz</span></h2>
+        <p>This innovative concentrate helps to enhance skin surface condition, leaving it looking smoother, fresher and healthier. Fine lines appear smoother in just four weeks. </p>
+        <h2 class="price">$50<span class="value">A $59 Value!</span></h2>
+        <!-- <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=89502:25276&qty=1:1" role="button"> -->
+        <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52748&qty=1" role="button">
+        Add treatment to cart  &#9656;</a>
+      </div>
+    </div>
+    <div class="five columns text-center desk"> <img src="images2/Youth-Enhancing.png" class="product" alt="youth enhancing treatment" /> </div>
+  </div><!--//.row -->
+  
+  <!--========= Vit E =========-->
+  <div class="hr-gray"></div>
+  <div class="row">
+    <div class="five columns"> <img src="images2/dream-team.png" class="product" alt="NIGHT DREAM TEAM treatment" /> </div>
+    <div id="treat-2" class="six columns text-left">
+      <div id="vit-e">
+        <h1>NIGHT DREAM TEAM treatment</h1>
+        <h2>1. OVERNIGHT SERUM-IN-OIL <span class="size">0.94&nbsp;fl&nbsp;oz</span></h2>
+        <p>A technical innovation combining the power of a serum and oil to indulge and recharge skin with moisture overnight. The non-greasy, fast-absorbing formula provides 8 hours of beauty sleep for skin.</p>
+        <h2>2. NOURISHING NIGHT CREAM <span class="size">1.7&nbsp;fl&nbsp;oz</span></h2>
+        <p>This cream helps replenish antioxidant and moisture levels overnight, when skin is most receptive. Intense hydration leaves skin feeling soft and smooth.</p>
+        <h2 class="price">$40<span class="value">A $48 Value!</span></h2>
+        <!-- <a class="btn-prd btn"  href="/ajax/addtocart.aspx?varcode=17800:20251&qty=1:1" role="button"> -->
+        <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52747&qty=1" role="button">
+        Add treatment to cart  &#9656;</a>
+      </div>
+    </div>
+    <div class="one columns"></div>
+  </div><!--//.row -->
+  
+  <!--========= Tea Tree =========-->
+  <div class="hr-gray"></div>
+  <div class="row">
+    <div class="one columns"></div>
+    <div class="five columns text-center mobile"> <img src="images2/Youth-Enhancing.png" class="product" alt="youth enhancing treatment" /> </div>
+    <div id="treat-2" class="six columns text-left">
+      <div id="tea">
+        <h1>breakout Banishing treatment</h1>
+        <h2>1.  Pore minimizer <span class="size">0.33&nbsp;fl&nbsp;oz</span></h2>
+        <p>Our Pore Minimiser makes pores appear smaller. It smoothes,
+          primes and mattifies, and leaves skin feeling fresh and pure.</p>
+        <h2>2. Tea tree oil <span class="size">1&nbsp;fl&nbsp;oz</span></h2>
+        <p>This oil helps reduce the appearance of blemishes without drying the skin.</p>
+        <h2 class="price">$26<span class="value">A $29 Value!</span></h2>
+        <!-- <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=28350:94031&qty=1:1" role="button"> -->
+        <a class="btn-prd btn" href="/ajax/addtocart.aspx?varcode=52749&qty=1" role="button"> Add treatment to cart  &#9656;</a>
+      </div>
+    </div>
+    <div class="five columns text-center desk"> <img src="images2/tea-tree.png" class="product" alt="youth enhancing treatment" /> </div>
+  </div><!--//.row -->
+  
+  </div><!--//.maincontent -->
+</section><!--//#home -->
+
+<!-- Included JS Files (Compressed) --> 
+<script src="javascripts/foundation.min.js"></script> 
+
+<!-- Initialize JS Plugins --> 
+<script src="javascripts/jquery.flexslider-min.js"></script> 
+<script src="javascripts/inview.js"></script> 
+<script src="javascripts/smooth-scroll.js"></script> 
+<script src="javascripts/scripts.js"></script>
+
+<script type="text/javascript">         _satellite.pageBottom();</script>
+
+</form></body>
+</html>
